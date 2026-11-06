@@ -1,5 +1,13 @@
 # brokenpipe-writeup
-A writeup for utilising BrokenPipe on a windows 11 machine.
+
+Here is the original link to KillaBoi's BrokenPipe exploit:
+https://github.com/KillaBoi/BrokenPipe
+
+This exploit requires the computer to have steam installed and running in the background.
+
+
+This is a writeup for utilising BrokenPipe on a windows 11 machine:
+
 First, I set up my windows 11 virtual machine to have steam installed and have my admin account be named “admin”, with an undisclosed password.
 My guest account is called “visitor” and the password is “abc123”, let’s simulate privilege escalation for someone with low level access to a windows 11 machine
 Admin has administrators as their local group, visitor has users as their local group, this shows visitor is low-level.
